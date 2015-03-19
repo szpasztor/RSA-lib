@@ -10,7 +10,7 @@ import static java.math.BigInteger.ONE;
 /**
  *
  */
-public class KeyDemo {
+public class KeyGenerationDemo {
 
     private static @NotNull BigInteger p;
     private static @NotNull BigInteger q;
