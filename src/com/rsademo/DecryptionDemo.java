@@ -16,6 +16,10 @@ public class DecryptionDemo {
     private static @NotNull BigInteger m;
     private static @NotNull BigInteger c;
 
+    /**
+     * Decrypts the cyphertext using the given input.
+     * @param args Doesn't take any parameters
+     */
     public static void main(String args[]) {
         System.out.println("--------------------\nDECRYPTION\n--------------------");
         System.out.println("Usage: n d c");

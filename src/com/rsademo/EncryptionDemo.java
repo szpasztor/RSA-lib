@@ -16,6 +16,10 @@ public class EncryptionDemo {
     private static @NotNull BigInteger m;
     private static @NotNull BigInteger c;
 
+    /**
+     * Encrypts the given message m using the given key.
+     * @param args Doesn't take any parameters.
+     */
     public static void main(String args[]) {
         System.out.println("--------------------\nENCRYPTION\n--------------------");
         System.out.println("Usage: n e m\n");

@@ -20,6 +20,10 @@ public class KeyGenerationDemo {
     private static @NotNull BigInteger e;
     private static @NotNull BigInteger d;
 
+    /**
+     * Using the given input, generates a public and private key, displaying the values of p, q, n, phi(n), e and d.
+     * @param args Doesn't take any parameters.
+     */
     public static void main(String args[]) {
         System.out.println("--------------------\nGENERATE KEYS\n--------------------");
         System.out.println("Usage: p q\n");
@@ -38,7 +42,7 @@ public class KeyGenerationDemo {
         System.out.println("phi(n) = " + phiN);
 
         e = phiN.divide(BigInteger.valueOf(3));
-        while(e.gcd(phiN).equals(ONE) == false) e = e.add(ONE);
+        while(!e.gcd(phiN).equals(ONE)) e = e.add(ONE);
         System.out.println("e = " + e);
 
         d = e.modInverse(phiN);
