@@ -3,7 +3,7 @@ package com.rsademo.keys;
 import java.math.BigInteger;
 
 /**
- *
+ * Represents a public key with values n and e.
  */
 public class PublicKey {
 

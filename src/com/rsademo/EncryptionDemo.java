@@ -6,7 +6,8 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
- *
+ * Demo of encryption in action. When the main method is executed, calculates the cyphertext c from the input given.
+ * Suitable for input/output redirection.
  */
 public class EncryptionDemo {
 

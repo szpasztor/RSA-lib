@@ -6,7 +6,8 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
- *
+ * Demo of decryption in action. When the main method is executed, calculates the original message m from the given input.
+ * Suitable for input/output redirection.
  */
 public class DecryptionDemo {
 

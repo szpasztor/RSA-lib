@@ -8,7 +8,8 @@ import java.util.Scanner;
 import static java.math.BigInteger.ONE;
 
 /**
- *
+ * Demo of key generation in action. When the main method is executed, calculates the public and private keys, with additional information.
+ * Suitable for input/output redirection.
  */
 public class KeyGenerationDemo {
 

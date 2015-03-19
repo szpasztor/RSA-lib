@@ -8,7 +8,7 @@ import java.math.BigInteger;
 import static java.math.BigInteger.ONE;
 
 /**
- *
+ * Class holding externally usable API for key generation, encryption and decryption.
  */
 public class RSA {
 

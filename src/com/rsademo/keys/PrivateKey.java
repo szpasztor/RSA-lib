@@ -3,7 +3,7 @@ package com.rsademo.keys;
 import java.math.BigInteger;
 
 /**
- *
+ * Represents a private key with values n and d.
  */
 public class PrivateKey {
 
