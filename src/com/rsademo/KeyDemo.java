@@ -1,3 +1,5 @@
+package com.rsademo;
+
 import org.jetbrains.annotations.NotNull;
 
 import java.math.BigInteger;
@@ -8,7 +10,7 @@ import static java.math.BigInteger.ONE;
 /**
  *
  */
-public class GenerateKeys {
+public class KeyDemo {
 
     private static @NotNull BigInteger p;
     private static @NotNull BigInteger q;
